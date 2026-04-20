@@ -1,0 +1,57 @@
+# Setting
+gpus: [0]
+seed: 1
+debug: False
+pretrained_path:
+work_dir: ./workdir
+no_progress_bar: False
+
+
+# Data Loader
+dataset: ntu_mutual
+dataset_args:
+  split: xview
+  graph: mutual
+  labeling:
+  processing: default
+  train_batch_size: 16
+  eval_batch_size: 16
+  transform: False
+  crop: True
+  root_folder: ./data/ntu_mutual
+  ntu60_path:
+  ntu120_path:
+
+# Model
+model_type:
+model_args:
+  att_type:
+  kernel_size: [3,0]
+  block_structure: m19
+  reduct_ratio: 2
+  bias: True
+
+
+# Optimizer
+optimizer: SGD
+optimizer_args:
+  SGD:
+    lr: 0.1
+    momentum: 0.9
+    nesterov: True
+    weight_decay: 0.0001
+  Adam:
+    lr: 0.1
+    betas: [0.9,0.99]
+    weight_decay: 0.0002
+
+# Scheduler
+lr_scheduler: cosine
+scheduler_args:
+  step:
+    max_epoch: 70
+    warm_up: 10
+    step_lr: [20,50]
+  cosine:
+    max_epoch: 100
+    warm_up: 5
