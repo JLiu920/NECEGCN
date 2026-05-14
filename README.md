@@ -1,0 +1,1 @@
+The hyperparameter settings of NECE-GCN are configured by loading the .py file located in NECE-GCN/configs/gcn/ntu_mutual/mutual. The preprocessing scripts are located in the .py files under NECE-GCN/src/dataset and are automatically invoked when running main.py.
