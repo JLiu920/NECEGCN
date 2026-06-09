@@ -2,7 +2,7 @@ The hyperparameter settings of NECE-GCN are configured by loading the .py file l
 
 The datasets used in this paper are available at the following links:
 
-NTU-RGB+D: https://rose1.ntu.edu.sg/dataset/actionRecognition/
+NTU-RGB+D & NTU-RGB+D 120: https://rose1.ntu.edu.sg/dataset/actionRecognition/
 
 SBU: http://vision.cs.stonybrook.edu/~kiwon/Datasets/SBU_Kinect_Interactions/README.txt
 
