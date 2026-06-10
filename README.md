@@ -2,7 +2,13 @@ The hyperparameter settings of NECE-GCN are configured by loading the .py file l
 
 The datasets used in this paper are available at the following links:
 
-NTU-RGB+D & NTU-RGB+D 120 (According to the dataset authors’ requirements, readers need to submit a request through the website and complete personal information verification before accessing both datasets. The detailed download procedure can be found on the dataset website under “3. How to Download Datasets”): https://rose1.ntu.edu.sg/dataset/actionRecognition/
+NTU-RGB+D & NTU-RGB+D 120:
+https://drive.google.com/open?id=1CUZnBtYwifVXS21yVg62T-vrPVayso5H
+(Since this study only uses skeleton data, it is sufficient to download the skeleton data from NTU-RGB+D. The download file is nturgbd_skeletons_s001_to_s017.zip. After extraction, it contains the complete NTU-RGB+D skeleton data.)
 
-SBU: http://vision.cs.stonybrook.edu/~kiwon/Datasets/SBU_Kinect_Interactions/README.txt
+https://drive.google.com/open?id=1tEbuaEqMxAV7dNc4fqu1O4M7mC6CJ50w
+(This link provides the file nturgbd_skeletons_s018_to_s032.zip, which is an extended dataset of NTU-RGB+D. The NTU-RGB+D 120 dataset consists of nturgbd_skeletons_s001_to_s017.zip and nturgbd_skeletons_s018_to_s032.zip. To use the NTU-RGB+D 120 dataset, both nturgbd_skeletons_s001_to_s017.zip and nturgbd_skeletons_s018_to_s032.zip should be combined.)
+
+SBU-Kinect-Interaction dataset:
+http://vision.cs.stonybrook.edu/~kiwon/Datasets/SBU_Kinect_Interactions/README.txt
 
